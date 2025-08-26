@@ -24,7 +24,7 @@ A **modern, responsive**, and **professionally designed** portfolio website buil
   * 💼 **Projects** – A curated list of key projects with tech stack and external links
   * ✉️ **Contact** – Form-based contact page for direct communication
 
-* ⚡ **Performance Optimized**
+* ⚡ **Performance Optimised**
   Clean, efficient code and lightweight assets result in fast load times and a fluid browsing experience.
 
 ---
