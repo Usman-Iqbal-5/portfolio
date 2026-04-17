@@ -1,30 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 * {
     margin: 0px;
     padding: 0px;
 }
-
 html {
   overflow-y: scroll;
 }
-
 body {
     font-family: 'Exo', sans-serif;
     background: linear-gradient(to left, #2918e6, #6b28d0) !important;
 }
-
 #nav-bar {
-
     position: fixed;
     /* Ensures it stays in the normal workflow */
     z-index: 1000;
     /* Higher than the hero section which was overlapping it and removing the clickable effect */
     background-color: white;
     width: 100vw;
-
 }
-
 .nav-link {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     -webkit-background-clip: text;
@@ -32,14 +25,10 @@ body {
     color: transparent;
     transition: background 0.3s ease;
 }
-
-
 .active {
     background: linear-gradient(to left, #2918e6, #6b28d0) !important;
     color: white !important;
 }
-
-
 .nav-link:hover {
     background: linear-gradient(to right, #2918e6, #6b28d0, #b306e8);
     -webkit-background-clip: text;
@@ -47,11 +36,9 @@ body {
     color: transparent;
     transition: background 0.3s ease;
 }
-
 nav {
     z-index: 1000;
 }
-
 .nav-item{
     min-width: 75px;
 }
@@ -62,41 +49,33 @@ nav {
 #hero-section{
     margin-top: 12rem;
 }
-
 .creative-font {
     font-family: 'Brush Script MT', cursive;
     font-weight: bold;
 }
-
 .hero_div * {
     color: white;
 }
-
 .typed-cursor {
     font-size: inherit;
     line-height: inherit;
     color: inherit;
 }
-
-
 #primary-button {
     position: relative;
     z-index: 100;
     background-color: rgb(255, 255, 255, 0.2);
     color: white;
 }
-
 #primary-button:hover {
    background-color: #ffffff;
     color: #4e54c8;
     transition: all 0.3s ease;
 }
-
 #secondary-button {
     position: relative;
     z-index: 100;
 }
-
 #secondary-button:hover {
     color: #4e54c8;
     transition: all 0.3s ease;

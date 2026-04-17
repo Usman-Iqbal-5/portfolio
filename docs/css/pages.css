@@ -1,29 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 * {
     margin: 0px;
     padding: 0px;
 }
-
 html {
   overflow-y: scroll;
 }
-
 body {
     font-family: 'Exo', sans-serif;
     overflow-x: hidden;
 }
-
 .main-body {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
     margin-top: 0;
 }
-
-
 #nav-bar {
-
     position: fixed;
     /* Ensures it stays in the normal workflow */
     z-index: 1000;
@@ -32,7 +25,6 @@ body {
     width: 100vw;
 
 }
-
 .nav-link {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     -webkit-background-clip: text;
@@ -40,14 +32,10 @@ body {
     color: transparent;
     transition: background 0.3s ease;
 }
-
-
 .active {
     background: linear-gradient(to left, #2918e6, #6b28d0) !important;
     color: white !important;
 }
-
-
 .nav-link:hover {
     background: linear-gradient(to right, #2918e6, #6b28d0, #b306e8);
     -webkit-background-clip: text;
@@ -55,11 +43,9 @@ body {
     color: transparent;
     transition: background 0.3s ease;
 }
-
 nav {
     z-index: 1000;
 }
-
 .nav-item{
     min-width: 75px;
 }
@@ -86,9 +72,15 @@ nav {
 .carousel-item {
   background: transparent !important;
 }
-.project-images{
-  height: 500px;
-  width: auto !important;
+.carousel-item {
+  height: 50vh;       
+  min-height: 300px;
+  max-height: 600px;
+}
+.project-images {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  
 }
 .thank-you-message {
     display: none;
@@ -96,18 +88,15 @@ nav {
     font-size: 20px;
     margin-top: 20px;
 }
-
 .container {
     position: relative;
     z-index: 10;
     /* Bring form to the front */
 }
-
 .form-group {
     position: relative;
     z-index: 10;
 }
-
 .text-colour {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     display: inline-block;
@@ -117,13 +106,10 @@ nav {
     -webkit-text-fill-color: transparent;
     color: transparent;
 }
-
 .progress-bar-colour {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     z-index: 0;
 }
-
-
 #tsparticles {
     position: absolute;
     top: 0;
@@ -132,7 +118,6 @@ nav {
     height: 100%;
     z-index: -1;
 }
-
 .gradient-btn {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     color: white;
@@ -141,31 +126,25 @@ nav {
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-
 }
-
 /* Hover effect */
 .gradient-btn:hover {
     background: linear-gradient(to left, #6b28d0, #2918e6);
     opacity: 0.8;
     color: white;
 }
-
 .gradient-btn:active {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
     color: white !important;
 }
-
 .btn-sm {
     padding: 5px 10px;
     font-size: 12px;
 }
-
 .card {
     background-color: transparent !important;
 }
-
 footer{
     background: linear-gradient(to left, #2918e6, #6b28d0) !important;
     color:#fff !important;
