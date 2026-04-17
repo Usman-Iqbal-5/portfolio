@@ -80,7 +80,16 @@ nav {
 .hero_div>* {
     color: white;
 }
-
+    /* Make carousel background transparent */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  background: transparent !important;
+}
+.project-images{
+  height: 500px;
+  width: auto !important;
+}
 .thank-you-message {
     display: none;
     color: green;
