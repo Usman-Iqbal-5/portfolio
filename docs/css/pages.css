@@ -23,7 +23,6 @@ body {
     /* Higher than the hero section which was overlapping it and removing the clickable effect */
     background-color: white;
     width: 100vw;
-
 }
 .nav-link {
     background: linear-gradient(to left, #2918e6, #6b28d0);
