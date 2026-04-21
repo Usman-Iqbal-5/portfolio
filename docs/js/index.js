@@ -5,7 +5,7 @@ var typed = new Typed("#typed-text", {
   backDelay: 1800,
   loop: true,
   showCursor: true,
-  cursorChar: "",
+  cursorChar: "|",
 });
 
 tsParticles.load("tsparticles", {
