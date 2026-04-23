@@ -47,12 +47,7 @@ nav {
     padding-right: 0px;
 }
 #hero-section{
-    margin-top: 6rem;
-}
-@media(min-width: 675px){
-    #hero-section{
-        margin-top: 8rem;
-    }
+    margin-top: 8rem;
 }
 .creative-font {
     font-family: 'Brush Script MT', cursive;
