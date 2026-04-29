@@ -46,6 +46,9 @@ nav {
     padding-left: 0px;
     padding-right: 0px;
 }
+.vh{
+    height: calc(var(--vh) * 1vh);
+}
 #hero-section{
     margin-top: 8rem;
 }
