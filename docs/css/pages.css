@@ -158,6 +158,12 @@ nav {
     background: linear-gradient(to left, #2918e6, #6b28d0);
     color: white;
 }
+.gradient-btn-outline:active {
+    background: linear-gradient(to left, #2918e6, #6b28d0);
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: white !important;
+
+}
 
 .btn-sm {
     padding: 5px 10px;
