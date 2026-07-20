@@ -101,7 +101,6 @@ nav {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(1);
-    /* Makes white icons black */
 }
 
 .project-images {
