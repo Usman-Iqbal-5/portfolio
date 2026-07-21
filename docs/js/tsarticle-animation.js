@@ -50,7 +50,7 @@ tsParticles.load("tsparticles", {
   },
 });
 
-tsParticles.load("tsparticles-", {
+tsParticles.load("tsparticle", {
   fpsLimit: 30,
   particles: {
     number: { value: 40 },
