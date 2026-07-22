@@ -69,6 +69,23 @@ nav {
     font-weight: bold;
 }
 
+h1 {
+     display: flex;
+}
+
+.header-character {
+    display: inline-block;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+}
+
+.space-after {
+    margin-right: 20px;
+}
+
 #hero-section {
     padding-top: 150px;
     background: linear-gradient(to left, #2918e6, #6b28d0) !important;
