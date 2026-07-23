@@ -80,10 +80,16 @@ h1 {
 .contact-title {
     display: flex;
     justify-content: center;
-}
+} 
 
 .space-after {
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+@media(min-width:600px){
+    .space-after{
+        margin-right: 20px;
+    }
 }
 
 #hero-section {
